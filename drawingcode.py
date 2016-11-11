@@ -31,9 +31,11 @@ while not gameExit:
 	gameDisplay.fill(white)
 	#look up draw.rect()
 	pygame.draw.rect(gameDisplay, black, [400,300, 10, 100])
-	pygame.draw.rect(gameDisplay, red, [100,100, 50, 50])
+	gameDisplay.fill(green, rect =[150,75, 150, 75])
 
 	gameDisplay.fill(blue, rect=[200,200, 20,20])
+
+	pygame.draw.circle(gameDisplay, green, (75, 125), 30, 5)
 
 
 	gameDisplay.fill(blue, rect=[50,50, 20,20])
